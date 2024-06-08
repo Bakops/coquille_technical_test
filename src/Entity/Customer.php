@@ -77,7 +77,7 @@ class Customer
 
     public function setSocietyName(string $society_name): static
     {
-        $this->society_name = $society_name;
+        $this->societyname = $society_name;
 
         return $this;
     }

@@ -100,7 +100,7 @@ class Paginator
 
     public function hasNextPage(): bool
     {
-        return $this->currentPage < $this->getLastPage();
+        return $this->currentPage < $this->getNextPage();
     }
 
     public function getNextPage(): int
